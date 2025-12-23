@@ -1,13 +1,33 @@
 /* in main.css or index.css */
 html, body {
+  font-family: 'MuseoSansCyri', sans-serif;
+  font-size: 16px; /* base size, can adjust */
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: #000;   /* FULL black background */
+  background-color: #000; /* if you want black background */
+  color: #fff;           /* default text color */
 }
 
 body.homeview-active {
   background-color: #000; /* full black behind scrollbar */
 }
 
+@font-face {
+  font-family: 'MyseoSansCyri';
+  src: url('@/assets/fonts/museosanscyri.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav span {
+  font-size: 22px; /* new font size */
+  color: #fff;
+  cursor: pointer;
+}
+
+button {
+  font-family: 'MuseoSansCyri', sans-serif;
+  font-size: 14px; /* adjust as needed */
+}

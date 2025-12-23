@@ -34,9 +34,11 @@ export default defineComponent({
 
 <style scoped>
 .homeview-wrapper {
+  padding-top: 64px;
   background-color: #000;
   min-height: 100vh;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .page {
