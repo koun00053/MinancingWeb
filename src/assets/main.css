@@ -6,12 +6,12 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: #000; /* if you want black background */
+  background-color: #151515; /* if you want black background */
   color: #fff;           /* default text color */
 }
 
 body.homeview-active {
-  background-color: #000; /* full black behind scrollbar */
+  background-color: #151515; /* full black behind scrollbar */
 }
 
 @font-face {
@@ -30,4 +30,24 @@ body.homeview-active {
 button {
   font-family: 'MuseoSansCyri', sans-serif;
   font-size: 14px; /* adjust as needed */
+}
+
+.page {
+  padding-top: 164px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box {
+  width: 720px;
+  height: 320px;
+  border-radius: 16px;
+  border: 1px solid #333;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
 }
