@@ -1,0 +1,13 @@
+/* in main.css or index.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;   /* FULL black background */
+}
+
+body.homeview-active {
+  background-color: #000; /* full black behind scrollbar */
+}
+
